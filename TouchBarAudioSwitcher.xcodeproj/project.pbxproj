@@ -11,16 +11,19 @@
 		00ECDDA823C9F49800F9DED3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ECDDA723C9F49800F9DED3 /* ViewController.swift */; };
 		00ECDDAA23C9F49900F9DED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00ECDDA923C9F49900F9DED3 /* Assets.xcassets */; };
 		00ECDDAD23C9F49900F9DED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00ECDDAB23C9F49900F9DED3 /* Main.storyboard */; };
+		00ECDDB623C9F5E700F9DED3 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ECDDB523C9F5E700F9DED3 /* MainWindowController.swift */; };
+		00F4CDB723C9F82300BBD78F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00ECDDAE23C9F49900F9DED3 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00ECDDA223C9F49800F9DED3 /* TouchbarAudioSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchbarAudioSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00ECDDA223C9F49800F9DED3 /* TouchBarAudioSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchBarAudioSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00ECDDA523C9F49800F9DED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00ECDDA723C9F49800F9DED3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		00ECDDA923C9F49900F9DED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00ECDDAC23C9F49900F9DED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00ECDDAE23C9F49900F9DED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00ECDDAF23C9F49900F9DED3 /* TouchbarAudioSwitcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TouchbarAudioSwitcher.entitlements; sourceTree = "<group>"; };
+		00ECDDAF23C9F49900F9DED3 /* TouchBarAudioSwitcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TouchBarAudioSwitcher.entitlements; sourceTree = "<group>"; };
+		00ECDDB523C9F5E700F9DED3 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,38 +40,47 @@
 		00ECDD9923C9F49800F9DED3 = {
 			isa = PBXGroup;
 			children = (
-				00ECDDA423C9F49800F9DED3 /* TouchbarAudioSwitcher */,
+				00ECDDA423C9F49800F9DED3 /* TouchBarAudioSwitcher */,
 				00ECDDA323C9F49800F9DED3 /* Products */,
+				6FE0132B8140DB2A127B51E6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		00ECDDA323C9F49800F9DED3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00ECDDA223C9F49800F9DED3 /* TouchbarAudioSwitcher.app */,
+				00ECDDA223C9F49800F9DED3 /* TouchBarAudioSwitcher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00ECDDA423C9F49800F9DED3 /* TouchbarAudioSwitcher */ = {
+		00ECDDA423C9F49800F9DED3 /* TouchBarAudioSwitcher */ = {
 			isa = PBXGroup;
 			children = (
 				00ECDDA523C9F49800F9DED3 /* AppDelegate.swift */,
 				00ECDDA723C9F49800F9DED3 /* ViewController.swift */,
 				00ECDDA923C9F49900F9DED3 /* Assets.xcassets */,
 				00ECDDAB23C9F49900F9DED3 /* Main.storyboard */,
+				00ECDDB523C9F5E700F9DED3 /* MainWindowController.swift */,
 				00ECDDAE23C9F49900F9DED3 /* Info.plist */,
-				00ECDDAF23C9F49900F9DED3 /* TouchbarAudioSwitcher.entitlements */,
+				00ECDDAF23C9F49900F9DED3 /* TouchBarAudioSwitcher.entitlements */,
 			);
-			path = TouchbarAudioSwitcher;
+			path = TouchBarAudioSwitcher;
+			sourceTree = "<group>";
+		};
+		6FE0132B8140DB2A127B51E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00ECDDA123C9F49800F9DED3 /* TouchbarAudioSwitcher */ = {
+		00ECDDA123C9F49800F9DED3 /* TouchBarAudioSwitcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00ECDDB223C9F49900F9DED3 /* Build configuration list for PBXNativeTarget "TouchbarAudioSwitcher" */;
+			buildConfigurationList = 00ECDDB223C9F49900F9DED3 /* Build configuration list for PBXNativeTarget "TouchBarAudioSwitcher" */;
 			buildPhases = (
 				00ECDD9E23C9F49800F9DED3 /* Sources */,
 				00ECDD9F23C9F49800F9DED3 /* Frameworks */,
@@ -78,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = TouchbarAudioSwitcher;
+			name = TouchBarAudioSwitcher;
 			productName = TouchbarAudioSwitcher;
-			productReference = 00ECDDA223C9F49800F9DED3 /* TouchbarAudioSwitcher.app */;
+			productReference = 00ECDDA223C9F49800F9DED3 /* TouchBarAudioSwitcher.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 00ECDD9D23C9F49800F9DED3 /* Build configuration list for PBXProject "TouchbarAudioSwitcher" */;
+			buildConfigurationList = 00ECDD9D23C9F49800F9DED3 /* Build configuration list for PBXProject "TouchBarAudioSwitcher" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00ECDDA123C9F49800F9DED3 /* TouchbarAudioSwitcher */,
+				00ECDDA123C9F49800F9DED3 /* TouchBarAudioSwitcher */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +135,7 @@
 			files = (
 				00ECDDAA23C9F49900F9DED3 /* Assets.xcassets in Resources */,
 				00ECDDAD23C9F49900F9DED3 /* Main.storyboard in Resources */,
+				00F4CDB723C9F82300BBD78F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +148,7 @@
 			files = (
 				00ECDDA823C9F49800F9DED3 /* ViewController.swift in Sources */,
 				00ECDDA623C9F49800F9DED3 /* AppDelegate.swift in Sources */,
+				00ECDDB623C9F5E700F9DED3 /* MainWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,13 +216,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -256,12 +272,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -269,7 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = TouchbarAudioSwitcher/TouchbarAudioSwitcher.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TouchBarAudioSwitcher/TouchBarAudioSwitcher.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TouchbarAudioSwitcher/Info.plist;
@@ -277,7 +295,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.naotoida.TouchbarAudioSwitcher;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naotoida.TouchBarAudioSwitcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -287,7 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = TouchbarAudioSwitcher/TouchbarAudioSwitcher.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TouchBarAudioSwitcher/TouchBarAudioSwitcher.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TouchbarAudioSwitcher/Info.plist;
@@ -295,7 +314,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.naotoida.TouchbarAudioSwitcher;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.naotoida.TouchBarAudioSwitcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -304,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00ECDD9D23C9F49800F9DED3 /* Build configuration list for PBXProject "TouchbarAudioSwitcher" */ = {
+		00ECDD9D23C9F49800F9DED3 /* Build configuration list for PBXProject "TouchBarAudioSwitcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00ECDDB023C9F49900F9DED3 /* Debug */,
@@ -313,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00ECDDB223C9F49900F9DED3 /* Build configuration list for PBXNativeTarget "TouchbarAudioSwitcher" */ = {
+		00ECDDB223C9F49900F9DED3 /* Build configuration list for PBXNativeTarget "TouchBarAudioSwitcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00ECDDB323C9F49900F9DED3 /* Debug */,

@@ -1,9 +1,8 @@
 //
 //  ViewController.swift
-//  TouchbarAudioSwitcher
+//  TouchBarAudioSwitcher
 //
-//  Created by Nao on 11.01.20.
-//  Copyright © 2020 Naoto Ida. All rights reserved.
+//  Created by Naoto Ida on 11.01.20.
 //
 
 import Cocoa
@@ -12,7 +11,6 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 

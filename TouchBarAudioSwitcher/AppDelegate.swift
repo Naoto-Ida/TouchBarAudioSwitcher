@@ -1,18 +1,14 @@
 //
 //  AppDelegate.swift
-//  TouchbarAudioSwitcher
+//  TouchBarAudioSwitcher
 //
-//  Created by Nao on 11.01.20.
-//  Copyright © 2020 Naoto Ida. All rights reserved.
+//  Created by Naoto Ida on 11.01.20.
 //
 
 import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-
-
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
     }
